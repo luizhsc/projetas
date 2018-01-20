@@ -47,10 +47,10 @@ Now, visit http://localhost:8000.
 
 
 ## Reference Post
-<a href="https://laravel.com/"/>
+A documentação oficial do Laravel está disponível no <a href="https://laravel.com">Website do Laravel.</a>
 
 
 ## Meta
 
-Luiz Cunha – [@luizhsc](https://github.com/luizhsc/) – luizhscunha@outlook.com
+[@luizhsc](https://github.com/luizhsc/) – luizhscunha@outlook.com
 
