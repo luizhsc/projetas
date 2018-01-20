@@ -47,7 +47,7 @@ Now, visit http://localhost:8000.
 
 
 ## Reference Post
-<a href="https://laravel.com/"></a>
+<a href="https://laravel.com/"/>
 
 
 ## Meta
