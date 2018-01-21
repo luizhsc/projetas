@@ -3,7 +3,7 @@
 @section('content')
 <div class="col-md-10 col-md-offset-1 container">
 
-    <h1 class="text-primary">Create new Veiculo</h1>
+    <h1 class="text-primary">Create new Vehicle</h1>
     <hr>
     
     {!! Form::open(array('route' => 'veiculo.store', 'class' => 'form')) !!}
@@ -19,20 +19,19 @@
         {!! Form::text('marca', null, 
         array('required', 
         'class'=>'form-control', 
-        'placeholder'=>'Marca')) !!}
+        'placeholder'=>'Brand')) !!}
     </div>
     
     <div class="form-group">			
         {!! Form::text('modelo', null, 
         array('required', 
         'class'=>'form-control', 
-        'placeholder'=>'Modelo')) !!}
+        'placeholder'=>'Model')) !!}
     </div>
     
     
     <div class="form-group">                
-        <select name="cor" class="form-control">
-            <option value="">Select</option>            
+        <select name="cor" class="form-control">               
             <option value="Preto">Preto</option>            
             <option value="Prata">Prata</option>
             <option value="Vermelho">Vermelho</option>
@@ -45,7 +44,7 @@
         {!! Form::text('ano', null, 
         array('required', 
         'class'=>'form-control', 
-        'placeholder'=>'Ano')) !!}
+        'placeholder'=>'Year')) !!}
     </div>
     
     
@@ -53,23 +52,31 @@
         {!! Form::text('preco', null, 
         array('required', 
         'class'=>'form-control', 
-        'placeholder'=>'Preço')) !!}
+        'placeholder'=>'Price')) !!}
     </div>
     
     <div class="form-group">			
         {!! Form::text('descicao', null, 
         array('required', 
         'class'=>'form-control', 
-        'placeholder'=>'Descrição')) !!}
+        'placeholder'=>'Description')) !!}
     </div>
     
      <div class="form-group">                
-        <select name="tipo" class="form-control">
-            <option value="">Select</option>            
+        <select name="tipo" class="form-control">                  
             <option value="0">Novo</option>            
             <option value="1">Usado</option>
         </select>
     </div>
+      
+   
+     <div class="form-group">                
+        <select name="tipo" class="form-control">                  
+            <option value="0">Novo</option>            
+            <option value="1">Usado</option>
+        </select>
+    </div>
+    
     
     <hr>
 

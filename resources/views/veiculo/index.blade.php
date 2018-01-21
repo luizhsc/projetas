@@ -8,10 +8,10 @@
         <thead>
             <tr>
                 <th class="text-center">Id</th>
-                <th class="text-center">Marca</th>                                         
-                <th class="text-center">Cor</th>                                         
-                <th class="text-center">Ano</th>
-                <th class="text-center">Preço</th>
+                <th class="text-center">Brand</th>                                         
+                <th class="text-center">Color</th>                                         
+                <th class="text-center">Year</th>
+                <th class="text-center">Price</th>
             </tr>
         </thead>
         <tbody>

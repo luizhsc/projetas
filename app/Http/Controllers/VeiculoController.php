@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Veiculo;
+use Carbon\Carbon;
 
 class VeiculoController extends Controller
 {
@@ -18,9 +19,11 @@ class VeiculoController extends Controller
 
     public function store(Request $request) {
         $input = $request->all();
+        
+        $create_at = Carbon::now()->toDateTimeString();
 
-        Veiculo::create($input);
-
+        Veiculo::create($input, $create_at);            
+        
         return redirect()->route('veiculo.index');
     }
 

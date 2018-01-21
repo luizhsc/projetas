@@ -7,19 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-
-
 # CRUD Veiculos
 > CRUD de uma entidade Veículo.
 
-Este projeto foi desenvolvido utilizando framework PHP Laravel 5.5,
-afimm de cadastrar, editar, excluir e listar Veículos com as entidades: Marca, Modelo, Cor, Ano, Preço, Descrição, Tipo (Novo ou Usado), Data de cadastro e Data de atualização.
+This project was developed using PHP framework Laravel 5.5 
+for the purpose of registering, editing, deleting and listing Vehicles with as entities: Brand, Model, Color, 
+Year, Price, Description, Type (New or Used), Registration Data and Data update.
 
-![](../header.png)
 
 ## Instalação
 
-OS X & Linux:
+> OS X & Linux:
 
 Let's install all packages, by running this command from Terminal
 
@@ -36,6 +34,12 @@ Let's do some migration with dummy datas.
 php artisan migrate
 ```
 
+Generate App Key
+
+```sh
+php artisan key:generate
+```
+
 And run the web server
 
 ```sh
@@ -47,7 +51,7 @@ Now, visit http://localhost:8000.
 
 
 ## Reference Post
-A documentação oficial do Laravel está disponível no <a href="https://laravel.com">Website do Laravel.</a>
+The official Laravel documentation is available <a href="https://laravel.com">Website do Laravel.</a>
 
 
 ## Meta
