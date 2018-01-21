@@ -68,14 +68,6 @@
             <option value="1">Usado</option>
         </select>
     </div>
-      
-   
-     <div class="form-group">                
-        <select name="tipo" class="form-control">                  
-            <option value="0">Novo</option>            
-            <option value="1">Usado</option>
-        </select>
-    </div>
     
     
     <hr>

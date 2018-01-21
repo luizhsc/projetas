@@ -12,6 +12,7 @@
                 <th class="text-center">Color</th>                                         
                 <th class="text-center">Year</th>
                 <th class="text-center">Price</th>
+                <th class="text-center">Type</th>
             </tr>
         </thead>
         <tbody>
@@ -22,6 +23,7 @@
                 <td class="text-center">{{ $veiculo->cor }}</td>
                 <td class="text-center">{{ $veiculo->ano }}</td>
                 <td class="text-center">{{ $veiculo->preco }}</td>
+                <td class="text-center">{{ $veiculo->tipo }}</td>
                 <td class="text-center">														
                     <a href="{{ route('veiculo.show', $veiculo->id) }}" class="btn btn-info">View Detail</a>
                 </td>							

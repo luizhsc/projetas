@@ -17,7 +17,7 @@ Year, Price, Description, Type (New or Used), Registration Data and Data update.
 
 ## Instalação
 
-> OS X & Linux:
+> Linux, Windows & OS X:
 
 Let's install all packages, by running this command from Terminal
 

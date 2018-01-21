@@ -41,7 +41,7 @@ class VeiculoController extends Controller
             ]);        
         */
 
-        $input = $request->all();
+        $input = $request->all();   
         $veiculo->fill($input)->save();
         return redirect()->route('veiculo.index');
     }
