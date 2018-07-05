@@ -8,14 +8,15 @@
 </p>
 
 # CRUD Vehicles
-> CRUD de uma entidade Veículo.
+> 
+> CRUD of an entity Vehicle.
 
 This project was developed using PHP framework Laravel 5.5 
 for the purpose of registering, editing, deleting and listing Vehicles with as entities: Brand, Model, Color, 
 Year, Price, Description, Type (New or Used), Registration Data and Data update.
 
 
-## Instalação
+## Install
 
 > Linux, Windows & OS X:
 
