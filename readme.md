@@ -16,6 +16,13 @@ for the purpose of registering, editing, deleting and listing Vehicles with as e
 Year, Price, Description, Type (New or Used), Registration Data and Data update.
 
 
+## Prerequisites
+
+- Composer - https://getcomposer.org/download/
+- PHP 7.0
+- MySQL Server
+
+
 ## Install
 
 > Linux, Windows & OS X:
@@ -24,6 +31,12 @@ Let's install all packages, by running this command from Terminal
 
 ```sh
 composer install
+```
+
+Update packages
+
+```sh
+composer update
 ```
 
 Rename .env.example to .env and provide your database details there.
