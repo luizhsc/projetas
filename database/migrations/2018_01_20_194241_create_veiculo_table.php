@@ -13,21 +13,21 @@ class CreateVeiculoTable extends Migration
      */
     public function up()
     {
-       Schema::create('veiculos', function (Blueprint $table) {
+       Schema::create('vehicles', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('marca', 40);
-            $table->string('modelo', 50);
-            $table->string('cor', 30);
-            $table->integer('ano');
-            $table->decimal('preco'); 
-            $table->text('descricao')->nullable();             
-            $table->boolean('tipo');
+            $table->string('brand', 40);
+            $table->string('model', 50);
+            $table->string('color', 30);
+            $table->integer('year');
+            $table->decimal('price');
+            $table->text('description')->nullable();
+            $table->boolean('type');
             $table->timestamps();
         });
     }
    
     public function down()
     {
-        Schema::dropIfExists('veiculo');
+        Schema::dropIfExists('vehicle');
     }
 }

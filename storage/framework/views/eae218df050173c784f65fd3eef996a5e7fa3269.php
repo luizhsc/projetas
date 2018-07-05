@@ -2,11 +2,11 @@
 
 
 <div class="col-md-10 col-md-offset-1 container">
-    <h1>Edit Veiculo: <?php echo e($veiculo->modelo); ?> </h1>
+    <h1>Edit Vehicle: <?php echo e($veiculo->model); ?> </h1>
 
     <hr>
 
-    <?php echo Form::model($veiculo, ['method' => 'PUT','route' => ['veiculo.update', $veiculo->id]]); ?>
+    <?php echo Form::model($veiculo, ['method' => 'PUT','route' => ['vehicle.update', $veiculo->id]]); ?>
 
 
     <?php if($errors->any()): ?>
@@ -18,22 +18,22 @@
     <?php endif; ?>
 
     <div class="form-group">
-        <?php echo Form::label('marca', 'Marca:', ['class' => 'control-label']); ?>
+        <?php echo Form::label('brand', 'Marca:', ['class' => 'control-label']); ?>
 
-        <?php echo Form::text('marca', null, ['class' => 'form-control']); ?>
+        <?php echo Form::text('brand', null, ['class' => 'form-control']); ?>
 
     </div>    
 
     <div class="form-group">
-        <?php echo Form::label('modelo', 'Modelo:', ['class' => 'control-label']); ?>
+        <?php echo Form::label('model', 'Modelo:', ['class' => 'control-label']); ?>
 
-        <?php echo Form::textarea('modelo', null, ['class' => 'form-control']); ?>
+        <?php echo Form::textarea('model', null, ['class' => 'form-control']); ?>
 
     </div>
     
     <div class="form-group">
-        <a href="<?php echo e(route('veiculo.index')); ?>" class="btn btn-warning">Back</a>
-        <?php echo Form::submit('Update Veiculo    ', ['class' => 'btn btn-primary']); ?>    
+        <a href="<?php echo e(route('vehicle.index')); ?>" class="btn btn-warning">Back</a>
+        <?php echo Form::submit('Update Vehicle    ', ['class' => 'btn btn-primary']); ?>
     </div>
     <?php echo Form::close(); ?>
 
