@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-# CRUD Veiculos
+# CRUD Vehicles
 > CRUD de uma entidade Veículo.
 
 This project was developed using PHP framework Laravel 5.5 

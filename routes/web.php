@@ -14,7 +14,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::resource('veiculo', 'VeiculoController');
+Route::resource('vehicle', 'VehicleController');
 
 Route::get("/autocomplete", array('as' => 'autocomplete', 'uses' => 'TarefasController@autocomplete'));
 
@@ -22,5 +22,5 @@ Route::get("/autocomplete", array('as' => 'autocomplete', 'uses' => 'TarefasCont
 Route::get('/search', 'TarefasController@busca');
 
 
-Route::get('/home', 'VeiculoController@home');
+Route::get('/home', 'VehicleController@home');
 

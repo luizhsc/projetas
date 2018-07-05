@@ -1,5 +1,5 @@
 <meta charset="UTF-8">
-<title>CRUD Veiculos</title>
+<title>CRUD Vehicles</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -23,8 +23,8 @@
                 <div class="w3-dropdown-hover w3-hide-small">
                     <button class="w3-padding-large w3-button" title="More">Menu     <i class="fa fa-caret-down"></i></button>     
                     <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                        <a href="{{ url('/veiculo/') }}" class="w3-bar-item w3-button">List All</a>
-                        <a href="{{ url('/veiculo/create') }}" class="w3-bar-item w3-button">New Vehicle</a>       
+                        <a href="{{ url('/vehicle/') }}" class="w3-bar-item w3-button">List All</a>
+                        <a href="{{ url('/vehicle/create') }}" class="w3-bar-item w3-button">New Vehicle</a>
                     </div>
                 </div>                
             </div>
